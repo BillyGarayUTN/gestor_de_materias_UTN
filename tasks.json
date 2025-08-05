@@ -1,0 +1,441 @@
+[
+    {
+        "id": 1,
+        "description": "Análisis Matemático I",
+        "level": 1,
+        "cursadas": [],
+        "aprobadas": [],
+        "status": "cursada",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 2,
+        "description": "Álgebra y Geometría Analítica",
+        "level": 1,
+        "cursadas": [],
+        "aprobadas": [],
+        "status": "cursada",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 3,
+        "description": "Física I",
+        "level": 1,
+        "cursadas": [],
+        "aprobadas": [],
+        "status": "completada",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 4,
+        "description": "Inglés I",
+        "level": 1,
+        "cursadas": [],
+        "aprobadas": [],
+        "status": "none",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 5,
+        "description": "Lógica y Estructuras Discretas",
+        "level": 1,
+        "cursadas": [],
+        "aprobadas": [],
+        "status": "completada",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 6,
+        "description": "Algoritmos y Estructuras de Datos",
+        "level": 1,
+        "cursadas": [],
+        "aprobadas": [],
+        "status": "completada",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 7,
+        "description": "Arquitectura de Computadoras",
+        "level": 1,
+        "cursadas": [],
+        "aprobadas": [],
+        "status": "completada",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 8,
+        "description": "Sistemas y Procesos de Negocio",
+        "level": 1,
+        "cursadas": [],
+        "aprobadas": [],
+        "status": "completada",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 9,
+        "description": "Análisis Matemático II",
+        "level": 2,
+        "cursadas": [
+            1,
+            2
+        ],
+        "aprobadas": [],
+        "status": "cursada",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 10,
+        "description": "Física II",
+        "level": 2,
+        "cursadas": [
+            1,
+            3
+        ],
+        "aprobadas": [],
+        "status": "en_curso",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 11,
+        "description": "Ingeniería y Sociedad",
+        "level": 2,
+        "cursadas": [],
+        "aprobadas": [],
+        "status": "completada",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 12,
+        "description": "Inglés II",
+        "level": 2,
+        "cursadas": [
+            4
+        ],
+        "aprobadas": [],
+        "status": "none",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 13,
+        "description": "Sintaxis y Semántica de los Lenguajes",
+        "level": 2,
+        "cursadas": [
+            5,
+            6
+        ],
+        "aprobadas": [],
+        "status": "cursada",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 14,
+        "description": "Paradigmas de Programación",
+        "level": 2,
+        "cursadas": [
+            5,
+            6
+        ],
+        "aprobadas": [],
+        "status": "en_curso",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 15,
+        "description": "Sistemas Operativos",
+        "level": 2,
+        "cursadas": [
+            7
+        ],
+        "aprobadas": [],
+        "status": "none",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 16,
+        "description": "Análisis de Sistemas de Información (Integradora)",
+        "level": 2,
+        "cursadas": [
+            6,
+            8
+        ],
+        "aprobadas": [],
+        "status": "cursada",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 17,
+        "description": "Probabilidad y Estadística",
+        "level": 3,
+        "cursadas": [
+            1,
+            2
+        ],
+        "aprobadas": [],
+        "status": "cursada",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 18,
+        "description": "Economía",
+        "level": 3,
+        "cursadas": [],
+        "aprobadas": [
+            1,
+            2
+        ],
+        "status": "none",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 19,
+        "description": "Bases de Datos",
+        "level": 3,
+        "cursadas": [
+            13,
+            16
+        ],
+        "aprobadas": [
+            5,
+            6
+        ],
+        "status": "none",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 20,
+        "description": "Desarrollo de Software",
+        "level": 3,
+        "cursadas": [
+            14,
+            16
+        ],
+        "aprobadas": [
+            5,
+            6
+        ],
+        "status": "none",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 21,
+        "description": "Comunicación de Datos",
+        "level": 3,
+        "cursadas": [],
+        "aprobadas": [
+            3,
+            7
+        ],
+        "status": "none",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 22,
+        "description": "Análisis Numérico",
+        "level": 3,
+        "cursadas": [
+            9
+        ],
+        "aprobadas": [
+            1,
+            2
+        ],
+        "status": "none",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 23,
+        "description": "Diseño de Sistemas de Información (Integradora)",
+        "level": 3,
+        "cursadas": [
+            14,
+            16
+        ],
+        "aprobadas": [
+            4,
+            6,
+            8
+        ],
+        "status": "none",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 24,
+        "description": "Legislación",
+        "level": 4,
+        "cursadas": [
+            11
+        ],
+        "aprobadas": [],
+        "status": "en_curso",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 25,
+        "description": "Ingeniería y Calidad de Software",
+        "level": 4,
+        "cursadas": [
+            19,
+            20,
+            23
+        ],
+        "aprobadas": [
+            13,
+            14
+        ],
+        "status": "none",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 26,
+        "description": "Redes de Datos",
+        "level": 4,
+        "cursadas": [
+            15,
+            21
+        ],
+        "aprobadas": [],
+        "status": "none",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 27,
+        "description": "Investigación Operativa",
+        "level": 4,
+        "cursadas": [
+            17,
+            22
+        ],
+        "aprobadas": [],
+        "status": "none",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 28,
+        "description": "Simulación",
+        "level": 4,
+        "cursadas": [
+            17
+        ],
+        "aprobadas": [
+            9
+        ],
+        "status": "none",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 29,
+        "description": "Tecnologías para la Automatización",
+        "level": 4,
+        "cursadas": [
+            10,
+            22
+        ],
+        "aprobadas": [
+            9
+        ],
+        "status": "none",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 30,
+        "description": "Administración de Sistemas de Información (Integradora)",
+        "level": 4,
+        "cursadas": [
+            18,
+            23
+        ],
+        "aprobadas": [
+            16
+        ],
+        "status": "none",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 31,
+        "description": "Inteligencia Artificial",
+        "level": 5,
+        "cursadas": [
+            28
+        ],
+        "aprobadas": [
+            17,
+            22
+        ],
+        "status": "none",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 32,
+        "description": "Ciencia de Datos",
+        "level": 5,
+        "cursadas": [
+            28
+        ],
+        "aprobadas": [
+            17,
+            19
+        ],
+        "status": "none",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 33,
+        "description": "Sistemas de Gestión",
+        "level": 5,
+        "cursadas": [
+            18,
+            27
+        ],
+        "aprobadas": [
+            23
+        ],
+        "status": "none",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 34,
+        "description": "Gestión Gerencial",
+        "level": 5,
+        "cursadas": [
+            24,
+            30
+        ],
+        "aprobadas": [
+            18
+        ],
+        "status": "none",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 35,
+        "description": "Seguridad en los Sistemas de Información",
+        "level": 5,
+        "cursadas": [
+            26,
+            30
+        ],
+        "aprobadas": [
+            20,
+            21
+        ],
+        "status": "none",
+        "created_at": "2023-01-01 00:00:00"
+    },
+    {
+        "id": 36,
+        "description": "Proyecto Final (Integradora)",
+        "level": 5,
+        "cursadas": [
+            25,
+            26,
+            30
+        ],
+        "aprobadas": [
+            12,
+            20,
+            23
+        ],
+        "status": "none",
+        "created_at": "2023-01-01 00:00:00"
+    }
+]
